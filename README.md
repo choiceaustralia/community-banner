@@ -1,2 +1,3 @@
-# community-banner
-This is a discourse plugin for the banner on choice.community
+# Community Banner
+
+This Discourse Plugin renders the banner at the top of [choice.community](http://choice.community)

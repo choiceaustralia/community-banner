@@ -27,6 +27,8 @@
         list-style-type: none;
         a {
           opacity: 0;
+          display: block;
+          height: $icon_size;
         }
       }
 

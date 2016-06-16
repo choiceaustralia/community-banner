@@ -1,7 +1,9 @@
+$color_foreground: #fff;
+$color_background: #000;
+
 #community-banner {
-  background-color: #000;
-  a {
-    color: #fff;
-    font-weight: bold;
-  }
+  background-color: $color_background;
+  color: $color_foreground !important;
+  font-weight: bold;
+  a { color: $color_foreground; }
 }

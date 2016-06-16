@@ -6,6 +6,8 @@ This Discourse Plugin renders the banner at the top of [choice.community](http:/
 
 Go to `/admin/customize` and add a custom header.
 
+Modify this code if you need to. Paste it into the header field.
+
 ```html
 <div id="community-banner">
   <div class="wrap">

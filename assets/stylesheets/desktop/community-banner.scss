@@ -22,7 +22,6 @@
         background-repeat: no-repeat;
         width: $icon_size;
         height: $icon_size;
-        margin: 0;
         display: inline-block;
         list-style-type: none;
         a {
@@ -37,22 +36,19 @@
       $pos_youtube: -2 * $icon_size;
       $pos_instagram: -3 * $icon_size;
       $pos_google: -4 * $icon_size;
+      $pos_y: 0;
+      $pos_hover: -29px;
 
-      .twitter {
-        background-position: $pos_twitter 0;
-      }
-      .facebook {
-        background-position: $pos_facebook 0;
-      }
-      .youtube {
-        background-position: $pos_youtube 0;
-      }
-      .instagram {
-        background-position: $pos_instagram 0;
-      }
-      .google {
-        background-position: $pos_google 0;
-      }
+      .twitter { background-position: $pos_twitter $pos_y; }
+      .twitter:hover { background-position: $pos_twitter $pos_hover; }
+      .facebook { background-position: $pos_facebook $pos_y; }
+      .facebook:hover { background-position: $pos_facebook $pos_hover; }
+      .youtube { background-position: $pos_youtube $pos_y; }
+      .youtube:hover { background-position: $pos_youtube $pos_hover; }
+      .instagram { background-position: $pos_instagram $pos_y; }
+      .instagram:hover { background-position: $pos_instagram $pos_hover; }
+      .google { background-position: $pos_google $pos_y; }
+      .google:hover { background-position: $pos_google $pos_hover; }
     }
   }
 }

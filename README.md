@@ -6,13 +6,7 @@ This Discourse Plugin renders the banner at the top of [choice.community](http:/
 
 Go to `/admin/customize` and add a custom header.
 
-Paste this:
-
-<<<<<<< HEAD
-`
-=======
 ```html
->>>>>>> 08d22c09fb5dcfa0b2109e15e3878c51a5cb7cdf
 <div id="community-banner">
   <div class="wrap">
     <div id="community-banner-links">
@@ -29,8 +23,4 @@ Paste this:
     </div>
   </div>
 </div>
-<<<<<<< HEAD
-`
-=======
 ```
->>>>>>> 08d22c09fb5dcfa0b2109e15e3878c51a5cb7cdf

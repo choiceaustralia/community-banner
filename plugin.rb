@@ -1,6 +1,6 @@
 # name: community-banner
 # about: Renders the banner at the top of the page
-# version: 0.1.3
+# version: 0.1.4
 # authors: Rimian Perkins
 # url: https://github.com/choiceaustralia/community-banner
 
